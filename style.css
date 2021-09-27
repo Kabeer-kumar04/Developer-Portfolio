@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.links {
+    background-color: #D0312D;
+    text-align: end;
+}
+
+.links ul {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.links ul li {
+    padding: 15px;
+    margin-right: 40px;
+}
+
+.links ul li a {
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    /* font-weight: bold; */
+}
+
+.links ul li a:hover {
+    color: grey;
+}
+
+@media screen and (max-width:700px) {
+    .links ul {
+        display: flex;
+        flex-direction: column;
+        /* align-content: center; */
+        text-align: center;
+    }
+}
+
+#about {
+    background-color: #212121;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro {
+    align-self: center;
+}
+
+/* .intro img {
+    width: 20vw;
+    height: 40vh;
+    border-radius: 100%;
+    border: 6px solid #D0312D;
+} */
+
+.intro h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    /* font-family: 'Birthstone', cursive; */
+    font-family: sans-serif;
+}
+
+.intro h3 {
+    color: #D0312D;
+    font-style: italic;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+    font-size: 30px;
+}
+
+@media screen and (max-width:700px) {
+    /* .intro img {
+        width: 60vw;
+        height: 40vh;
+    } */
+    .intro {
+        padding: 20px;
+    }
+    .intro h1 {
+        margin: 15px;
+    }
+}
+
+#work {
+    background: #394d6d;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+#work h1 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+@media screen and (max-width:600px) {
+    #work h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+.card img {
+    height: 50vh;
+}
+
+.card-body a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.card-body a:hover {
+    color: #394d6d;
+}
+
+@media screen and (max-width:600px) {
+    .card {
+        width: 20vw;
+        margin-top: 20px;
+    }
+}
+
+#contact {
+    background-color: #212121;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.head {
+    text-align: center;
+}
+
+.head h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.head p {
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.contact ul li {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.contact ul li a:hover {
+    position: relative;
+    top: 8px;
+}
+
+#contact hr {
+    color: red;
+    height: 8px;
+}
+
+#copy-right {
+    text-align: end;
+    color: white;
+    margin-right: 40px;
+    font-size: 20px;
+}
